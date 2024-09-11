@@ -25,6 +25,7 @@ for (let find of data) {
                         ${find.description}
                     </p>
                     <p class="link"><a href=${find.link} target="_blank">${find.information}</a></p>
+                    <p class="link"><a href=${find.link2} target="_blank">${find.information2}</a></p>
             </div>
     `
     
