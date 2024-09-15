@@ -9,9 +9,13 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
     padding: 0px;
     margin: 0px;
+}
+
+main {
+    flex: 1;
 }
 
 header h1 {
@@ -100,8 +104,6 @@ footer {
     text-align: center;
     padding-top: 20px;
     width: 100%;
-    position: absolute;
-    bottom: 0;
 }
 
 footer a {
@@ -154,7 +156,7 @@ footer a:hover {
     }
 
     section input {
-        width: 60vw;
+        width: 55vw;
     }
 
     .search {
